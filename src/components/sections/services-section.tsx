@@ -20,26 +20,36 @@ export function ServicesSection() {
           <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
+        <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-10 lg:grid-cols-3 lg:gap-x-16">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Обучение по охране труда",
+              description: "Обучение сотрудников по охране труда, пожарной безопасности и оказанию первой помощи пострадавшим",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Абонентское обслуживание",
+              description: "Комплексное сопровождение организаций по охране труда на постоянной основе",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Специальная оценка условий труда",
+              description: "Проведение СОУТ в соответствии с действующим законодательством РФ",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Консультирование",
+              description: "Профессиональные консультации по вопросам охраны труда и пожарной безопасности",
+              direction: "bottom",
+            },
+            {
+              title: "Разработка документации",
+              description: "Разработка и внедрение документов по охране труда для вашей организации",
+              direction: "left",
+            },
+            {
+              title: "Аудит и консалтинг",
+              description: "Аудит, информационная поддержка и консалтинг в области охраны труда",
               direction: "bottom",
             },
           ].map((service, i) => (
